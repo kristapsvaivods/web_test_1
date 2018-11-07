@@ -1,0 +1,135 @@
+body {
+	overflow-x: hidden; /*--right gutter fix--*/
+	font-family: sans-serif;
+	color: #505962;
+}
+.navbar{
+	text-transform: uppercase;
+	background-color: #505962;
+}
+
+.navbar-brand h2{
+	height: 2rem;
+	letter-spacing: 5px;
+}
+
+.home-inner{
+	background-image: url(img/landing_forest.jpg);
+}
+.caption{
+	width: 100%;
+	max-width: 100%;
+	position: absolute;
+	top: 40%;
+	z-index: 1;
+}
+.caption h3{
+	color: #FFF;
+	font-size: 3rem;
+	text-transform: uppercase;
+	padding-bottom: 2rem;
+	letter-spacing: 5px;
+}
+
+.btn {
+	border-width: medium;
+	border-radius: 0;
+	text-transform: uppercase;
+	padding: .5rem 1.1rem;
+	font-size: .9rem;
+}
+h3.headding{
+	text-align: center;
+	font-size: 2rem;
+	text-transform: uppercase;
+	margin-bottom: 2rem;
+}
+
+.padding{
+	padding: 2rem 0rem;
+}
+
+.footer .row{
+	background-color: #505962;
+	padding: 1rem 2rem 3rem;
+}
+
+.footer h1{
+	height: 3rem;
+	letter-spacing: 5px;
+	font-size: 30px;
+	padding: 2rem;
+	margin: 2rem 0rem;
+}
+
+.footer{
+	color: white;
+}
+
+fa-facebook {
+  color: #3b5998;
+}
+
+.fa-instagram {
+  color: #517fa8;
+}
+
+.fa-youtube {
+  color: #bb0000;
+}
+
+.fa-facebook, .fa-instagram, .fa-youtube{
+	font-size: 40px;
+	margin: 1rem;
+}
+
+.fa-facebook:hover, .fa-instagram:hover, .fa-youtube:hover{
+  color: #d5d5d5;
+}
+
+p {
+	text-align: center;
+	font-size: 1rem;
+	padding: .5rem 2rem;
+}
+h4 {
+	font-size: 1.5rem;
+	text-style: bold;
+	text-transform: uppercase;
+	padding-top: 2rem;
+	padding: 1rem 2rem 0rem;
+}
+.mypicture {
+	padding:1rem;
+	max-width: 100%
+}
+/*--- iOS Landing Page Fix --*/
+.landing {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: table;
+  background: #E9ECEF;
+  z-index: -1;
+}
+.home-wrap {
+  clip: rect(0, auto, auto, 0);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.home-inner {
+  position: fixed;
+  display: table;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center center;
+  -webkit-transform: translateZ(0);
+          transform: translateZ(0);
+  will-change: transform;
+}
